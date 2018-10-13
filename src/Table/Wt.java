@@ -32,7 +32,7 @@ public class Wt {
 	 
 	    element.click(); 
 	 System.out.println("test");
-	
+	 System.out.println("test one");
 
 	  driver.findElement(By.xpath(".//*[@id='nav-link-yourAccount']")).click();
 
