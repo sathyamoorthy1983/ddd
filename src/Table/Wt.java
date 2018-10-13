@@ -31,7 +31,7 @@ public class Wt {
 	  WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(".//*[@id='nav-link-yourAccount']")));
 	 
 	    element.click(); 
-	 
+	 System.out.println("test");
 	
 
 	  driver.findElement(By.xpath(".//*[@id='nav-link-yourAccount']")).click();
